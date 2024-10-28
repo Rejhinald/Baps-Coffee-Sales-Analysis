@@ -13,6 +13,22 @@ To get started with this analysis, follow these steps:
 
 2. **Activate the virtual environment**
 
-On Windows:
-```bash
-.\env\Scripts\activate
+   On Windows:
+   ```bash
+   .\env\Scripts\activate
+-
+   On macOS/Linux:
+   ```bash
+   source env/bin/activate
+3. **Install required packages**
+
+   With the environment activated, install the dependencies listed in requirements.txt:
+   ```bash
+   pip install -r requirements.txt
+
+4. Click the Run All button in the notebook using your IDE.
+
+# Once these steps are completed, you should be able to run all cells in the notebook and follow along with the analysis.
+
+
+
