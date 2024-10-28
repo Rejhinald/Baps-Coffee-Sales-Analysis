@@ -10,26 +10,9 @@ To get started with this analysis, follow these steps:
    Open a terminal or command prompt, navigate to the project folder, and create a virtual environment:
    ```bash
    python -m venv env
-Activate the virtual environment
+
+2. **Activate the virtual environment**
 
 On Windows:
-bash
-Copy code
+```bash
 .\env\Scripts\activate
-On macOS/Linux:
-bash
-Copy code
-source env/bin/activate
-Install required packages
-With the environment activated, install the dependencies listed in requirements.txt:
-
-bash
-Copy code
-pip install -r requirements.txt
-Run the notebook
-Launch the Jupyter Notebook and run all cells to perform the analysis:
-
-bash
-Copy code
-jupyter notebook
-Once these steps are completed, you should be able to run all cells in the notebook and follow along with the analysis.
